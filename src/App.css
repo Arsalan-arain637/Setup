@@ -1,0 +1,159 @@
+
+
+.header{
+  font-size: 30px;
+  color: white;
+  background-color:gray;
+  font-family: 'Times New Roman', Times, serif;
+  display: flex;
+  position: relative;
+  top: -25px;
+  padding: 5px;
+  
+}
+.header-title{
+  color:rgb(145, 109, 109);
+  background-color:  #f2f2f2;
+  text-align: center;
+  font-family: 'Bangers', cursive;
+  text-transform: uppercase;
+  height: 285px;
+  position: relative;
+  top: -50px;
+  font-weight: bold;
+  font-size: 35px;
+  padding: 42px;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  align-content: center;
+
+ 
+
+
+}
+.banner-title{
+  font-size: 25px;
+  text-align: center;
+  position: relative;
+  top: -300px;
+  color:rgb(145, 109, 109);
+  justify-content: center;
+  align-items: flex-start;
+  align-content: space-between;
+  font-family: 'Bangers', cursive;
+  
+
+}
+.button-title{
+  background-color:  #f2f2f2;
+  color:rgb(145, 109, 109);
+  font-size: 25px;
+  border-radius: 10px;
+  position: relative;
+  left: 44%;
+  top: -270px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-family: 'Bangers', cursive;
+  transition: all .3s ease;
+  
+}
+.button-title:hover{
+  
+  color: grey;
+}
+.logo{
+  color:rgb(145, 109, 109);
+  text-align: center;
+  font-family: 'Bangers', cursive;
+  position: relative;
+  top: -5rem;
+ 
+ 
+}
+
+section.services{
+  background: var(--light);
+}
+section.services .card-wrapper{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+ grid-gap: 0.8rem;
+ grid-column-gap: 0.1rem;
+  background: #f2f2f2;
+  
+  
+}
+
+section.services .card-wrapper .card{
+  margin: 10px;
+  border: 1px solid #ccc;
+ 
+  width: 300px;
+  background-color:ghostwhite;
+ 
+ 
+}
+
+
+section.services .card-wrapper .card img{
+  
+  width: 60%;
+  height: 60%;
+  height: auto;
+  display: block;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+section.services .card-wrapper  h2{
+  text-align: center;
+  align-items: center;
+  margin-bottom: 5rem;
+  font-weight: 200;
+  font-family: 'Bangers', cursive;
+
+}
+
+section.services   p{
+  text-align: center;
+  align-items: center;
+  margin-bottom: 0.2rem;
+  position: relative;
+  top: -3.5rem;
+  
+  
+  
+}
+
+.footer-title{
+  font-family: 'Lato', sans-serif;
+  padding: 3rem 2rem;
+  position: relative;
+  padding-top: 5rem;
+  text-align: center;
+
+  
+
+}
+.footer{
+  position: absolute;
+
+  left: 50%;
+  transform: translateX(-50%);
+  text-transform: uppercase;
+  font-weight: 50;
+  font-size: -2rem;
+  margin-top: -0rem;
+  background-color: rgb(145, 109, 109);
+
+  font-family: 'Bangers', cursive;
+  padding: auto;
+  
+  
+
+  
+}
